@@ -1,0 +1,39 @@
+/* Write your CSS here */
+
+.app-item-container {
+    background-color: #ffffff;
+    height: 160px;
+    width: 150px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  @media screen and (min-width: 567px) {
+    .app-item-container {
+      padding-top: 20px;
+      padding-right: 25px;
+      padding-left: 25px;
+    }
+  }
+  
+  .app-img {
+    height: 50px;
+    width: 50px;
+  }
+  
+  @media screen and (min-width: 567px) {
+    .app-img {
+      height: 70px;
+      width: 70px;
+    }
+  }
+  
+  .app-name {
+    font-family: 'Bree Serif';
+  }
+  

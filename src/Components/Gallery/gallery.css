@@ -1,0 +1,44 @@
+.thumbnail-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+.app-container-1{
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-container{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin-top: 34px;
+    margin-bottom: 34px;
+    max-width: 1140px;
+}
+.selected-image{
+    border-radius: 18px;
+}
+
+.h{
+    color: #1e293b;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.description{
+    color: #64748b;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+}
+.image-thumbnail {
+    opacity: 0.5;
+  }
+  
+  .select-image-thumbnail {
+    opacity: 1;
+  }

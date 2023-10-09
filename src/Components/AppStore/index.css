@@ -1,0 +1,80 @@
+/* Write your CSS here */
+
+.app-container- {
+    background-image: linear-gradient(to bottom, #fff1eb, #f9d5ac);
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    min-height: 100vh;
+    padding-top: 1px;
+  }
+  
+  @media screen and (min-width: 567px) {
+    .app-container {
+      padding-top: 60px;
+    }
+  }
+  
+  .app-store-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  @media screen and (min-width: 567px) {
+    .app-store-container {
+      max-width: 800px;
+    }
+  }
+  
+  .main-heading {
+    font-family: 'Bree Serif';
+    font-size: 35px;
+    color: #1e293b;
+    font-weight: bold;
+  }
+  
+  .search-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #1e293b;
+    padding: 9px;
+    border-radius: 5px;
+    width: 25%;
+  }
+  
+  .search-bar {
+    background-color: transparent;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+  }
+  
+  .search-img {
+    width: 20px;
+  }
+  
+  .tabs-list-items-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .app-list-items-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style: none;
+    padding: 0px;
+    
+  }
+  
